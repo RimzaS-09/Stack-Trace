@@ -15,4 +15,4 @@ This website is a personal collection of mine, exploring different mathematical 
 - Bakhshali's approximation
 - Patched conics
 
-### Looking forward to exploring 
+### Looking forward to exploring CompSci and Maths!!!
