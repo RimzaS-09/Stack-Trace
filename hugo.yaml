@@ -7,3 +7,6 @@ module:
 caches:
   images:
     dir: :cacheDir/imagesS
+params:
+  search:
+    enable: false
