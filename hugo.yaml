@@ -6,6 +6,30 @@ module:
 caches:
   images:
     dir: :cacheDir/imagesS
+
+  
 params:
   search:
     enable: false
+  footer:
+    enable: false
+  page:
+    width: normal
+
+
+menu:
+  main:
+    - name: articles
+      pageRef: /articles
+      weight: 1
+    - name: Blog
+      pageRef: /blog
+      weight: 2
+    - name: About Me
+      pageRef: /about
+      weight: 3
+    - name: GitHub
+      weight: 5
+      url: "https://github.com/RimzaS-09/Stack-Trace"
+      params:
+        icon: github
