@@ -9,17 +9,30 @@ caches:
 
   
 params:
-  search:
-    enable: false
   footer:
-    enable: false
-  page:
-    width: normal
+    displayCopyright: false
+    displayPoweredBy: false
 
+  math:
+    engine: katex
+    enable: true
+  
+  page:
+    width: 
+  navbar:
+    displayTitle: true
+    displayLogo: true
+    logo:
+      path: favicon.svg
+      link: /
+      width: 40
+      height: 20
+
+canonifyURLs : true
 
 menu:
   main:
-    - name: articles
+    - name: Articles
       pageRef: /articles
       weight: 1
     - name: Blog
@@ -33,3 +46,8 @@ menu:
       url: "https://github.com/RimzaS-09/Stack-Trace"
       params:
         icon: github
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
