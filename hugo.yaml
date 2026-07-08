@@ -12,10 +12,6 @@ params:
   footer:
     displayCopyright: false
     displayPoweredBy: false
-
-  math:
-    engine: katex
-    enable: true
   
   page:
     width: 
@@ -51,3 +47,10 @@ markup:
   goldmark:
     renderer:
       unsafe: true
+  
+    extensions:
+      passthrough:
+        delimiters:
+          block: [['\[', '\]'], ['$$', '$$']]
+          inline: [['\(', '\)']]
+        enable: true
