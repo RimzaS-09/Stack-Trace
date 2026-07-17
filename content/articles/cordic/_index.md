@@ -27,20 +27,32 @@ This means that, we can, rather than manually computing the solution to every po
   <video controls width="100%">
     <source src="/videos/SineWave.mp4" type="video/mp4">
   </video>
-  <figcaption>The periodicity of a sine wave, as shown. Notice how both x-values have the same value for sin(x)</figcaption>
+  <figcaption>The periodicity of a sine wave, as shown. Notice how both x-values have the same value for sin(x).</figcaption>
 </figure>
 <br>
 <br>
+
+
 But we can do better. Consider the unit circle, which can me mapped parametrically as
 
 $$x = \cos {t}$$
 $$y = \sin {t}$$
 
+This, therefore means, that the \(x\)-value for any given point on the circle is \(\cos{\theta}\), and the \(y\)-value is \(\sin{\theta}\)
+
+<br>
+<br>
+<figure>
+  <video controls width="100%">
+    <source src="/videos/CircleDemo.mp4" type="video/mp4">
+  </video>
+  <figcaption>The parametric form of a circle</figcaption>
+</figure>
+<br>
+<br>
 
 
 
-### How can we use a Cordic algorithm?
-The cordic algorithm can be used for 
 
 
 [^1]: We can use the Cordic algorithm for many elemental & transcendental functions, but we shall use trigonometry specifically, just as an example

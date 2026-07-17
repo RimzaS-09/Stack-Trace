@@ -1,6 +1,8 @@
 ---
 draft : false
-title : "The Cordic Algorithm"
+title : "Fast Fourier"
 toc: true
 next: impl
 ---
+
+Yo i didnt add in anything yet come back later
